@@ -1,0 +1,57 @@
+body{
+    background-color: orange;
+}
+
+.nav{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(224, 191, 147);
+border-radius: 10px;
+}
+.content{
+margin-top: 10px;
+display: flex;
+align-items: center;   
+flex-direction: column;
+
+
+
+}
+.movies{
+    flex-direction: column;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 20%;
+    padding-top: 25px;
+    justify-content: center;
+    padding-left: 95px;
+    padding-bottom: 25px;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.added{
+    padding-left: 10%;
+    padding-right: 10%;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 30%;
+    padding-top: 25px;
+    margin-left: 30%;
+    padding-bottom: 25px;
+}
+
+.Add{
+    margin-top: 7%;
+    background-color: rgb(235, 219, 175);
+    margin-bottom: 0%;
+    border-radius: 5px;
+}
