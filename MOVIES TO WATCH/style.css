@@ -152,14 +152,16 @@ button{
     height: 50px;
     width: 250px;
     font-size: large;
+    font-weight: bold;
     color: white;
     border-radius: 10px;
-    background-color: black;
+    background-color: #405D72;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: orange;
+    background-color: white;
+    color:black;
 }
 /* .added{
     padding-left: 10%;
