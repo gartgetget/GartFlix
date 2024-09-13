@@ -1,19 +1,104 @@
 body{
-    background: rgb(13,5,19);
-background: linear-gradient(90deg, rgb(21, 11, 29) 48%, rgb(102, 25, 25) 81%, rgb(240, 146, 15) 100%);
+background: #F7E7DC;
+background: linear-gradient(135deg, #F7E7DC, #FFF8F3);
 }
 
 .header{
     display: flex;
-    justify-content: center ;
-    background-color: inherit;
+    justify-content:space-evenly ;
+    align-items: center;
+    background-color:#405D72;
+    box-shadow: 0px 10px 12px #758694;
     width: 100%;
     height: 50%;
+    border-radius: 5px;
+}
+
+.header a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.header a:hover{
+    cursor: pointer;
+    color:orange;
+}
+section{
+margin-bottom: 10px;
+border-bottom: 1px dotted black;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    border-bottom: 1px dotted black;
+    background-image: url(../img/b\ \(2\).jpg) ;
+    background-position: center;
+    background-size:cover;
+}
+.land{
+    display: flex;
+    background-color: inherit;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 10%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.land2 img{
+    display: flex;
+    flex-direction: right;
+    height: 375px;
+    width: 150%;
+    margin-top: 30%;
+    border-radius: 5%;
+    object-fit:cover;
+    gap: 10%;
+}
+.land h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: black;
+
+}   
+
+.land h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: black;
+    font-size: xx-large;
+    border-width: 40%;
+    padding-bottom: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: black;
+    font-size: large;
+    border-width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn2{
+    margin-left: 46%;
 }
 
 .header h1{
-    height: 20%;
-    color: aliceblue;
+    height: 15%;
+    color: white;
+    padding-left: 2%;
+    font-family: fantasy;
+    font-weight: normal;
 }
 
 .container{
@@ -23,33 +108,38 @@ background: linear-gradient(90deg, rgb(21, 11, 29) 48%, rgb(102, 25, 25) 81%, rg
     height: 450%;
     justify-content: center;
     gap: 5px;
+    margin-bottom: 10%;
 }
 
 .container img{
     width: 19%;
     height: 100%;
-    object-fit:inherit;
+    object-fit:cover;
     border-radius: 10px;
-    border: 10px solid rgba(255, 255, 255, 0.684);
+    border: 1px solid rgba(255, 255, 255, 0.684);
     transition: all ease-in-out 0.5s;
 }
 
 .container img:hover{
     width: 30%;
+    cursor: pointer;
+    border: 5px solid black;
 }
 
 button{
- 
-    margin-top: 10px;
     margin-bottom: 20px;
-    height: 83px;
+    height: 40px;
     width: 150px;
-    font-size: x-large;
+    font-size: large;
     color: white;
     border-radius: 10px;
-    background-color: rgb(109, 34, 34);
+    background-color: black;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: orange;
+}
 /* .added{
     padding-left: 10%;
     padding-right: 10%;
@@ -61,7 +151,7 @@ button{
     padding-bottom: 25px;
 } */
 
-.Add{
+/* .Add{
     display: flex;
     margin-top: 7%;
     background-color: inherit;
@@ -69,4 +159,4 @@ button{
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-}
+} */
