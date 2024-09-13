@@ -46,7 +46,6 @@ button{
     width: 150px;
     font-size: x-large;
     color: white;
-    font: bold 10pt Arial, Helvetica, sans-serif;
     border-radius: 10px;
     background-color: rgb(109, 34, 34);
 }
