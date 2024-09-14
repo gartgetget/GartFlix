@@ -137,6 +137,7 @@ margin-left: 43.5%;
     object-fit:cover;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.684);
+    box-shadow: 0px 10px 12px #758694;
     transition: all ease-in-out 0.5s;
 }
 
@@ -163,23 +164,39 @@ button:hover{
     background-color: white;
     color:black;
 }
-/* .added{
-    padding-left: 10%;
-    padding-right: 10%;
-    border: solid white 5px;
-    border-radius: 5px;
-    width: 40%;
-    padding-top: 25px;
-    margin-left: 30%;
-    padding-bottom: 25px;
-} */
 
-/* .Add{
+footer{
     display: flex;
-    margin-top: 7%;
-    background-color: inherit;
-    margin-bottom: 0%;
-    border-radius: 5px;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-} */
+    margin: 0%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.icons a{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 45px;
+    transition: background 0.3s, transform 0.3s;
+
+}
+
+.icons a:hover{
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+    transform: scale(2.1);
+}
