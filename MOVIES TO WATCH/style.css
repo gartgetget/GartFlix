@@ -150,22 +150,53 @@ margin-left: 43.5%;
     border: 5px solid black;
 }
 
+span button{
+    text-align: center;
+}
 
 button{
     margin-bottom: 20px;
     height: 50px;
     width: 250px;
+    background: none;
     font-size: large;
     font-weight: bold;
-    color: white;
-    border-radius: 10px;
-    background-color: #405D72;
+    border-radius: 5px;
+    transition: 0.8s;
+    cursor: pointer;
+    overflow: hidden;
 }
 
-button:hover{
-    cursor: pointer;
-    background-color: white;
-    color:black;
+.btn1, .btn2{
+    color:#405D72;
+}
+
+.btn2:hover, .btn1:hover{
+    color:#fff;
+}
+
+button::before{
+    content: " ";
+    position: absolute;
+    height: 0%;
+    width: 249px;
+    background: #405D72;
+    z-index: -3;
+    transition: 0.5s;
+}
+
+.btn1::before, .btn2::before{
+border-radius: 50% 50% 0 0;
+}
+
+.btn1:hover::before{
+    height: 3.5%;
+    right: 59%;
+}
+
+.btn2:hover::before{
+    height: 3.5%;
+    right: 43%;
 }
 
 footer{
@@ -203,3 +234,6 @@ footer{
     background: linear-gradient(135deg, #4a00e0, #8e2de2);
     transform: scale(2.1);
 }
+
+
+
